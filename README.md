@@ -126,7 +126,7 @@ Diabetes is a diseas that widespread in today's world. Because of there is no pe
 16.1.2 Type 2 will be containing the users who are using Insulin
 16.2 The system categorizes users according to their body mass index and their age ranges.
 
-# 17 Functional requirement 1.17
+## 17 Functional requirement 1.17
 Title: Show Graphical data
 17.1 The System will be showing the last 7 days entrance for blood sugar.
 17.2 The system will be calculating the difference for each day by subtracting current blood sugar value from normal blood sugar value the dividing the result with current blood sugar.
@@ -135,7 +135,7 @@ Title: Show Graphical data
 17.3.2 For each day, If the blood sugar is in the range, it will be green on the graphic.
 17.4 The system will be storing these graphics at most one year in its database. There will be a button to show previous graphics.
 
-# 18 Functional requirement 1.18
+## 18 Functional requirement 1.18
 Title: See Detailed Profile of Contacts
 18.1 The system must provide a that user can see their friends detailed information.
 18.2 The user can see all information except users’ private information such as e-mail, phone number, password, confirmation document and messages.
