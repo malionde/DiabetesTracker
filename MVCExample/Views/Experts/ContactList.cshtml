@@ -1,0 +1,65 @@
+﻿@using MVCExample.Models
+@model IEnumerable<ContactList>
+@{
+
+
+}
+@{ int counter = 0;}
+@foreach (var item in Model)
+    { var id = string.Format("confirm-{0}", ++counter);
+        var target = string.Format("#{0}", id);
+    
+
+
+
+
+<div class="item">
+    @*<img src="~/Content/dist/img/avatar.png" alt="user image" class="online" />*@
+    
+  
+    <text>
+    <input type="image" class="myclass" src="@Html.DisplayFor(model => item.UserDetail.ProfilePictureURL)"  name="subject" onclick="e(@Html.DisplayFor(modelItem => item.ContactId))"   style="width: 40px; height: 40px;
+  border: 2px solid transparent;
+  border-radius: 50%;" id="@id" />
+   </text>
+      
+    
+    <p class="message">
+        
+        <a href="#" class="name">
+
+            @Html.DisplayFor(modelItem => item.UserDetail.Name) @Html.DisplayFor(modelItem => item.UserDetail.Surname)
+        </a>
+
+    </p>
+   
+        
+           
+</div>
+       
+    }
+<script>
+    function e(my) {
+            chat.innerText = "Messages";
+            $.ajax({
+                url: '@Url.Action("Messages", "Experts" )',
+                type: 'POST',
+                dataType: 'html',
+                data: { id: my },
+                success: function (data) {
+                    $("#chat-box").html(data);
+
+                },
+                error: function () {
+                    alert("Hata alındı.");
+                }
+            });
+    $(document).ready(function () {
+
+      
+        });
+
+    }
+</script>
+
+

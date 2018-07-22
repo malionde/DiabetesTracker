@@ -1,0 +1,640 @@
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\csc.exe
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\csc.exe.config
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\csc.rsp
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\csi.exe
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\csi.rsp
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\System.AppContext.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\System.Collections.Immutable.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\System.IO.FileSystem.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\vbc.exe
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\vbc.exe.config
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\vbc.rsp
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\VBCSCompiler.exe
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\roslyn\VBCSCompiler.exe.config
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\MVCExample.dll.config
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\MVCExample.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\MVCExample.pdb
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\Antlr3.Runtime.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\Microsoft.Web.Infrastructure.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\Newtonsoft.Json.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Helpers.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Mvc.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Optimization.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Razor.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Webpages.Deployment.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Webpages.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Webpages.Razor.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\WebGrease.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\Antlr3.Runtime.pdb
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\Newtonsoft.Json.xml
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Optimization.xml
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Razor.xml
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Webpages.xml
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Webpages.Deployment.xml
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Webpages.Razor.xml
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Helpers.xml
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\bin\System.Web.Mvc.xml
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\obj\Debug\MVCExample.csprojResolveAssemblyReference.cache
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\obj\Debug\MVCExample.dll
+c:\users\murat süzen\documents\visual studio 2017\Projects\MVCExample\MVCExample\obj\Debug\MVCExample.pdb
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\csc.exe
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\csc.exe.config
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\csc.rsp
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\csi.exe
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\csi.rsp
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\System.AppContext.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\vbc.exe
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\vbc.exe.config
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\vbc.rsp
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\MVCExample.dll.config
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\MVCExample.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\MVCExample.pdb
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\Antlr3.Runtime.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\Newtonsoft.Json.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Helpers.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Mvc.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Optimization.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Razor.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Webpages.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\WebGrease.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\Antlr3.Runtime.pdb
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\Newtonsoft.Json.xml
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Optimization.xml
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Razor.xml
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Webpages.xml
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Helpers.xml
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\bin\System.Web.Mvc.xml
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\obj\Debug\MVCExample.csprojResolveAssemblyReference.cache
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.CoreCompileInputs.cache
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\obj\Debug\MVCExample.dll
+C:\Users\Murat Suzen\Documents\Visual Studio 2017\Project\MVCExample\MVCExample\obj\Debug\MVCExample.pdb
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\csc.exe
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\csc.exe.config
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\csc.rsp
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\csi.exe
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\csi.rsp
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\System.AppContext.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\vbc.exe
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\vbc.exe.config
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\vbc.rsp
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\MVCExample.dll.config
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\MVCExample.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\MVCExample.pdb
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\Antlr3.Runtime.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\Newtonsoft.Json.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Helpers.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Mvc.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Optimization.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Razor.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\WebGrease.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\Antlr3.Runtime.pdb
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\Newtonsoft.Json.xml
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Optimization.xml
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Razor.xml
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.xml
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Helpers.xml
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\System.Web.Mvc.xml
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\obj\Debug\MVCExample.csprojResolveAssemblyReference.cache
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.CoreCompileInputs.cache
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\obj\Debug\MVCExample.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\obj\Debug\MVCExample.pdb
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Razor.resources.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\EntityFramework.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\EntityFramework.SqlServer.dll
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\EntityFramework.xml
+C:\Users\mali.onde\Desktop\MVCExample\MVCExample\bin\EntityFramework.SqlServer.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\csc.exe
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\csc.exe.config
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\csc.rsp
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\csi.exe
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\csi.rsp
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\System.AppContext.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\vbc.exe
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\vbc.exe.config
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\vbc.rsp
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\MVCExample.dll.config
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\MVCExample.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\MVCExample.pdb
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\Antlr3.Runtime.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\EntityFramework.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\EntityFramework.SqlServer.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\Newtonsoft.Json.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Helpers.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Mvc.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Optimization.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Razor.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\WebGrease.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\Antlr3.Runtime.pdb
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\EntityFramework.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\EntityFramework.SqlServer.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\Newtonsoft.Json.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Optimization.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Razor.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Helpers.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\System.Web.Mvc.xml
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Razor.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\obj\Debug\MVCExample.csprojResolveAssemblyReference.cache
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\obj\Debug\MVCExample.csproj.CoreCompileInputs.cache
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\obj\Debug\MVCExample.dll
+C:\Users\erp_stj\Desktop\MVCExample\MVCExample\obj\Debug\MVCExample.pdb
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\csc.exe
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\csc.exe.config
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\csc.rsp
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\csi.exe
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\csi.rsp
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\System.AppContext.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\vbc.exe
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\vbc.exe.config
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\vbc.rsp
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\MVCExample.dll.config
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\MVCExample.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\MVCExample.pdb
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\Antlr3.Runtime.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\EntityFramework.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\EntityFramework.SqlServer.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\Newtonsoft.Json.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Helpers.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Mvc.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Optimization.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Razor.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Webpages.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\WebGrease.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\Antlr3.Runtime.pdb
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\EntityFramework.xml
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\EntityFramework.SqlServer.xml
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\Newtonsoft.Json.xml
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Optimization.xml
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Razor.xml
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Webpages.xml
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Helpers.xml
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\System.Web.Mvc.xml
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\tr\System.Web.Razor.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\obj\Debug\MVCExample.csprojResolveAssemblyReference.cache
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\obj\Debug\MVCExample.csproj.CoreCompileInputs.cache
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\obj\Debug\MVCExample.csproj.CopyComplete
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\obj\Debug\MVCExample.dll
+C:\Users\erp_stj\Desktop\MVCExample_15_03_18\MVCExample\obj\Debug\MVCExample.pdb
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\csc.exe
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\csc.exe.config
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\csc.rsp
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\csi.exe
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\csi.rsp
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\System.AppContext.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\vbc.exe
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\vbc.exe.config
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\vbc.rsp
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\roslyn\desktop.ini
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\MVCExample.dll.config
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\MVCExample.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\MVCExample.pdb
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\Antlr3.Runtime.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\EntityFramework.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\EntityFramework.SqlServer.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\Newtonsoft.Json.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Helpers.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Mvc.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Optimization.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Razor.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\WebGrease.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\Antlr3.Runtime.pdb
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\EntityFramework.xml
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\EntityFramework.SqlServer.xml
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\Newtonsoft.Json.xml
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Optimization.xml
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Razor.xml
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.xml
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Helpers.xml
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\System.Web.Mvc.xml
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Razor.resources.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\obj\Debug\MVCExample.csprojResolveAssemblyReference.cache
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\obj\Debug\MVCExample.csproj.CoreCompileInputs.cache
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\obj\Debug\MVCExample.csproj.CopyComplete
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\obj\Debug\MVCExample.dll
+C:\Users\fthcn\Desktop\Yeni klasör (3)\MVCExample_03_04_18\MVCExample\obj\Debug\MVCExample.pdb
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\csc.exe
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\csc.exe.config
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\csc.rsp
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\csi.exe
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\csi.rsp
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\desktop.ini
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\System.AppContext.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\vbc.exe
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\vbc.exe.config
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\vbc.rsp
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\MVCExample.dll.config
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\MVCExample.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\MVCExample.pdb
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\Antlr3.Runtime.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\EntityFramework.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\EntityFramework.SqlServer.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\Newtonsoft.Json.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Helpers.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Mvc.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Optimization.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Razor.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\WebGrease.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\Antlr3.Runtime.pdb
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\EntityFramework.xml
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\EntityFramework.SqlServer.xml
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\Newtonsoft.Json.xml
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Optimization.xml
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Razor.xml
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.xml
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Helpers.xml
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\System.Web.Mvc.xml
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Razor.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\obj\Debug\MVCExample.csproj.CoreCompileInputs.cache
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\obj\Debug\MVCExample.csproj.CopyComplete
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\obj\Debug\MVCExample.dll
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\obj\Debug\MVCExample.pdb
+C:\Users\fthcn\Downloads\MVCExample_15_04_18\MVCExample_03_04_18\MVCExample\obj\Debug\MVCExample.csprojResolveAssemblyReference.cache
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\csc.exe
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\csc.exe.config
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\csc.rsp
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\csi.exe
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\csi.rsp
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\desktop.ini
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\System.AppContext.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\vbc.exe
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\vbc.exe.config
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\vbc.rsp
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\MVCExample.dll.config
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\MVCExample.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\MVCExample.pdb
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\Antlr3.Runtime.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\EntityFramework.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\EntityFramework.SqlServer.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\Newtonsoft.Json.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Helpers.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Mvc.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Optimization.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Razor.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\WebGrease.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\Antlr3.Runtime.pdb
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\EntityFramework.xml
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\EntityFramework.SqlServer.xml
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\Newtonsoft.Json.xml
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Optimization.xml
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Razor.xml
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.xml
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Helpers.xml
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\System.Web.Mvc.xml
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Razor.resources.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.csproj.CoreCompileInputs.cache
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.csproj.CopyComplete
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.dll
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.pdb
+C:\Users\MehmetAli\Desktop\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.csprojResolveAssemblyReference.cache
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\csc.exe
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\csc.exe.config
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\csc.rsp
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\csi.exe
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\csi.rsp
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\desktop.ini
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\System.AppContext.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\vbc.exe
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\vbc.exe.config
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\vbc.rsp
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\MVCExample.dll.config
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\MVCExample.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\MVCExample.pdb
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\Antlr3.Runtime.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\EntityFramework.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\EntityFramework.SqlServer.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\Newtonsoft.Json.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Helpers.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Mvc.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Optimization.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Razor.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\WebGrease.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\Antlr3.Runtime.pdb
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\EntityFramework.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\EntityFramework.SqlServer.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\Newtonsoft.Json.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Optimization.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Razor.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Helpers.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\System.Web.Mvc.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Razor.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.csproj.CoreCompileInputs.cache
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.csproj.CopyComplete
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.pdb
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.csprojResolveAssemblyReference.cache
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\csc.exe
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\csc.exe.config
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\csc.rsp
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\csi.exe
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\csi.rsp
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\desktop.ini
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\System.AppContext.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\vbc.exe
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\vbc.exe.config
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\vbc.rsp
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\VBCSCompiler.exe
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\MVCExample.dll.config
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\MVCExample.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\MVCExample.pdb
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\Antlr3.Runtime.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\EntityFramework.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\EntityFramework.SqlServer.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\Newtonsoft.Json.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Helpers.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Mvc.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Optimization.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Razor.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Deployment.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Razor.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\WebGrease.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\Antlr3.Runtime.pdb
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\EntityFramework.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\EntityFramework.SqlServer.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\Newtonsoft.Json.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Optimization.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Razor.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Deployment.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Webpages.Razor.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Helpers.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\System.Web.Mvc.xml
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Razor.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Webpages.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Webpages.Deployment.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Webpages.Razor.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Helpers.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\bin\tr\System.Web.Mvc.resources.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.csprojResolveAssemblyReference.cache
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.csproj.CoreCompileInputs.cache
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.csproj.CopyComplete
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.dll
+C:\Users\fthcn\Downloads\MVCExample_27_04_18_Mehmet_CSS\MVCExample_30_04_18\MVCExample_27_04_18\MVCExample\obj\Debug\MVCExample.pdb

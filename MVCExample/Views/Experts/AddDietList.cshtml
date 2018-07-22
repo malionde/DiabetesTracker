@@ -1,0 +1,128 @@
+﻿@using MVCExample.Models
+@model Tuple<Login, IEnumerable<ContactList>>
+
+@{
+    ViewBag.Title = "AddDietList";
+    Layout = "~/Views/Shared/_mainView.cshtml";
+}
+@using (Html.BeginForm("AddDietList2", "Experts", FormMethod.Post, new { id = "id" }))
+{
+    <h2 style="padding-left:15px; padding-top:10px;">Choose a patient to make a diet or exercise list</h2>
+    int counter = 0;
+    foreach (var item in Model.Item2)
+    {
+        var id = string.Format("confirm-{0}", ++counter);
+        var target = string.Format("#{0}", id);
+
+
+
+
+
+
+
+
+
+
+        <div class="box-body box-profile center-block" style="float:left;">
+            @*<img src="~/Content/dist/img/avatar.png" alt="user image" class="online" />*@
+
+
+            <a href="@Url.Action("AddDietList2", "Experts", new { id = item.UserDetail.UserId })">
+
+                <img name="subject" id="@id" type="image" class="profile-user-img img-responsive img-circle" src="~/Content/dist/img/avatar.png" alt="User profile picture">
+
+                <p class="message"></p>
+                <h3 class="profile-username text-center">@Html.DisplayFor(modelItem => item.UserDetail.Name) @Html.DisplayFor(modelItem => item.UserDetail.Surname)</h3>
+                <input type="hidden" value="@item.UserDetail.UserId" name="id" />
+                <h5 class="text-muted text-center"> Username: @Html.DisplayFor(modelITem => item.UserDetail.Username)</h5>
+                <h6 class="text-muted text-center"> BMI: @Html.DisplayFor(modelITem => item.UserDetail.BMI)</h6>
+                <h6 class="text-muted text-center"> Weight: @Html.DisplayFor(modelITem => item.UserDetail.Weight) </h6>
+                <h6 class="text-muted text-center"> Height: @Html.DisplayFor(modelITem => item.UserDetail.Height) </h6>
+                <h6 class="text-muted text-center"> Age: @(DateTime.Now.Year - @item.UserDetail.BirthDate2.Value.Year)</h6>
+                <h6 class="text-muted text-center"> Insulin Usage: @Html.DisplayFor(modelITem => item.UserDetail.InsulinUsage)</h6>
+                <h6 class="text-muted text-center"> Gender(1 is Male, 2 is Female) : @Html.DisplayFor(modelITem => item.UserDetail.Gender)</h6>
+
+                <h6 class="text-muted text-center"> Previous Disease: @Html.DisplayFor(modelITem => item.UserDetail.PreviousDisease)</h6>
+                
+
+            </a>
+            <a style="margin-left:20px" href="@Url.Action("Details", "Experts", new { id = item.UserDetail.UserId })">
+                Blood Sugar Levels
+            </a>
+            @*@Html.ActionLink("Details", "Experts", new { id = item.UserDetail.UserId });
+                @Html.Action("Details", "Experts", new { id = item.UserDetail.UserId });*@
+
+            <div class=" "> </div>
+
+        </div>
+
+
+
+
+
+        @*<div class="box-body box-profile center-block" style="float:left;">
+
+
+                <img name="subject" type="image" class="profile-user-img img-responsive img-circle" src="~/Content/dist/img/avatar.png" alt="User profile picture">
+
+
+                <h3 class="profile-username text-center">  @Html.DisplayFor(modelItem => item.Name) @Html.DisplayFor(modelItem => item.Surname)</h3>
+
+                <h5 class="text-muted text-center"> Username: @Html.DisplayFor(modelITem => item.Username)</h5>
+                <br />
+                <h5 class="text-muted text-center" style="width:200px;">
+                    <strong><i class="fa fa-file-text-o margin-r-5"></i> Short CV</strong>
+                    <br />
+                    @Html.DisplayFor(modelITem => item.ShortCV)
+                </h5>
+
+                @using (Html.BeginForm("AddPerson", "Home", new { add = item.UserId }))
+                {
+                    <input type="hidden" name="add" value="@Html.DisplayFor(modelItem => item.UserId)" id="aa + @Html.DisplayFor(modelItem => item.UserId)" />
+                    <button style="margin: 0 auto; width:70%;" type="submit" class="btn btn-primary btn-block " value="AddPerson"
+                            id="aa + @Html.DisplayFor(modelItem => item.UserId)">
+                        <b>Send Request</b>
+                    </button>
+                }
+
+                <p> @TempData["requestmessage"] </p>
+            </div>*@
+
+
+
+    }
+}
+@section nameofuser
+{
+
+    @Model.Item1.UserDetail.Name
+    @Model.Item1.UserDetail.Surname
+
+
+}
+@section nameofuser2
+
+{
+    @Model.Item1.UserDetail.Name
+    @Model.Item1.UserDetail.Surname
+}
+
+@section img1
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section img2
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section img4
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section mainurl
+{
+    @Url.Content("/Experts")
+}
+@section profile1
+{ @Url.Action("Profile1", "Experts")
+}

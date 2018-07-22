@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "Type";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<h2 style="margin-bottom:20px">Chose Type</h2>
+<div class="btn-group-vertical" style="width:300px; text-align:center;" >
+    @using (Html.BeginForm("RegisterPatient", "Login"))
+    {
+         <a style="margin-right:20px;float:left;" class="" href="~/Login/RegisterPatient/1"><div class="btn btn-info btn-md">Patient</div> </a>
+    }
+
+
+    @using (Html.BeginForm("RegisterDietitian", "Login"))
+    {
+
+         <a style="margin-right:20px" class="" href="~/Login/RegisterDietitian/2"><div class="btn btn-info btn-md">Dietitian</div>
+         </a>
+         <a class="" href="~/Login/RegisterDietitian/3"><div class="btn btn-info btn-md"> Fitness Coach </div>
+         </a>
+     
+    }
+</div>

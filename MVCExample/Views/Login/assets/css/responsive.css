@@ -1,0 +1,237 @@
+/* ----------------------------------------------------------------------------------------
+* Author        : Designcare
+* Template Name : Meditem | One Page Multipurpose Html Template
+* File          : Meditem main CSS file
+* Version       : 1.0
+* ---------------------------------------------------------------------------------------- */
+
+
+
+/* Medium Layout */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	
+	.featured-image {
+		margin-top: 123px;
+	}
+
+}
+
+
+/* Tablet Layout */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .navbar-nav  li {
+        padding: 10px 2px;
+    }
+	.navbar-nav  li a{
+        font-size: 14px;
+    }
+
+    .about-details,
+    .contact-form-book,
+    .tab-margin-bottom,
+    .padding{
+        margin-bottom: 30px;
+    }
+
+    .map-area {
+        width: 50%;
+    }
+
+    .callto_area:before {
+        width: 55% ;
+    }
+    .call_text h2{
+        line-height: 35px;
+        font-size: 25px;
+        margin-top: 0px
+    }
+     .call {
+        margin-top: 20px;
+    }
+	
+
+
+
+}
+
+/* Mobile Layout */
+
+@media only screen and (max-width: 767px) {
+    body, p {
+        line-height: 25px;
+    }
+	
+    .section-big {
+        padding: 50px 0px;
+    }
+
+    .btn, input[type='submit'] {
+        margin-bottom: 0px;
+        padding: 8px 20px;
+    }
+	
+    img {
+        max-width: 100%;
+    }
+
+	.about-details,
+    .contact-form-book{
+        margin-bottom: 30px;
+    }
+
+     .navbar-toggle .icon-bar {
+        background: #fff;
+    }
+    .navbar-toggle {
+        margin-right: 0px;
+        padding: 12px 10px;
+    }
+    .sticky-menu .mainmenu {
+        margin-bottom: 5px;
+    }
+
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        background: #333;
+        margin-top: 0px;
+        border-radius: 2px
+    }
+    .navbar {
+        min-height: 0px;
+    }
+    .mainmenu .navbar-nav {
+        margin: 0;
+    }
+    .mainmenu .navbar-nav li {
+        float: none;
+        display: block;
+    }
+    .navbar-nav  li {
+        padding: 5px 15px;
+        text-align: center;
+    }
+
+    .mainmenu .navbar-nav li.active a,
+    .mainmenu .navbar-nav li a:hover{
+        color: #007bb6;
+    }
+
+    .navbar-fixed-bottom .navbar-collapse,
+    .navbar-fixed-top .navbar-collapse {
+        max-height: 420px;
+    }
+
+    .mainmenu .navbar-nav li.active a {
+        border-bottom: 0px solid #fff;
+    }
+
+    .menu-area .a_button {
+        padding: 8px 15px;
+        margin: 0 auto;
+        display: table;
+        margin-bottom: 10px;
+    }
+
+    .intro-text h2 {
+        font-size: 30px;
+    }
+
+    .intro-text h1 {
+        font-size: 60px;
+    }
+
+    .mb-15{
+        margin-bottom: 10px;
+    }
+
+    .opening-hours-wrap {
+		background-position: center center; 
+	}
+
+    #slider, #slider .carousel, #slider .carousel .carousel-inner, #slider .carousel .carousel-inner .item {
+        max-height: 500px;
+    }
+
+    /* service area */
+    .home-services .service-box {
+        padding: 0px;
+    }
+
+    /* Portfolio area */
+    .work-items .item {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 15px;
+    }
+
+    .section-title h2 {
+        font-size: 30px;
+    }
+
+    .fun-fact {
+        margin-bottom: 30px;
+    }
+	
+	.padding{
+		padding-bottom:	30px;
+	}
+	
+	.featured-image {
+		margin-top: 0px;
+	}
+	
+	.contact-form-area {
+		width: 100%;
+		padding: 10px 60px;
+	}
+
+    .map-area {
+        position: relative;
+        width: 100%;
+    }
+
+    /* callto action */
+    .callto_area {
+        background: #007bb6;
+        text-align: center;
+    }
+
+    .callto_area:before {
+        display: none;
+    }
+
+    .call_text h2{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 0;
+    }
+
+    .call {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .call a {
+        color: #fff;
+        font-size: 20px;
+    }
+
+    .book-area {
+        padding-bottom: 0px;
+    }
+
+
+
+}
+
+
+
+
+/* Small Mobile Layout */
+
+@media only screen and (max-width: 480px) {
+    
+}

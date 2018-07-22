@@ -1,0 +1,18 @@
+﻿@model MVCExample.Models.Login
+@{
+    ViewBag.Title = "Recover";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<h2>Recover</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary()
+    <p>New Password </p>
+    <p>@Html.TextBoxFor(m => m.Password)</p>
+    var id2 = Request.Url.Segments.Last();
+    <p>@Html.HiddenFor(m=> m.Username, new { id = id2 }) </p>
+
+    <input type="submit" value="Send" />
+}

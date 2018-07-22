@@ -1,0 +1,51 @@
+﻿@model MVCExample.Models.Message
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Message</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.MessageDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MessageDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MessageLength)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MessageLength)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserDetail.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserDetail.Name)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserDetail1.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserDetail1.Name)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.MessageId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

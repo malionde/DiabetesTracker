@@ -1,0 +1,27 @@
+﻿@using MVCExample.Models
+@model IEnumerable<Login>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<h2>Index</h2>
+
+<form action="/Admin/Accept"  method="post">
+    @foreach(var m in Model) {
+        
+    <p>Username: @m.Username</p>  
+    <p>User Type: @m.UserDetail.Type</p>  
+    <p>Name&Surname:  @m.UserDetail.Name  @m.UserDetail.Surname</p>  
+       
+    <p>Short CV:   @m.UserDetail.ShortCV</p> 
+     <a href="@Url.Content(m.UserDetail.FileLink)">ad</a>
+     <input type="hidden" value="@m.UserId" name="id"/>
+        <input type="submit" value="Accept"/> 
+        
+    }
+
+
+
+
+</form>

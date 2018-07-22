@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DiabetModelStoreContainer" CdmEntityContainer="DiabetEntities">
+    <EntitySetMapping Name="Parameter">
+      <EntityTypeMapping TypeName="DiabetModel.Parameter">
+        <MappingFragment StoreEntitySet="Parameter">
+          <ScalarProperty Name="GroupName" ColumnName="GroupName" />
+          <ScalarProperty Name="GroupCode" ColumnName="GroupCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Login">
+      <EntityTypeMapping TypeName="DiabetModel.Login">
+        <MappingFragment StoreEntitySet="Login">
+          <ScalarProperty Name="TypeApproval" ColumnName="TypeApproval" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserDetail">
+      <EntityTypeMapping TypeName="DiabetModel.UserDetail">
+        <MappingFragment StoreEntitySet="UserDetail">
+          <ScalarProperty Name="BMI" ColumnName="BMI" />
+          <ScalarProperty Name="PreviousDisease" ColumnName="PreviousDisease" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="BirthDate2" ColumnName="BirthDate2" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FileLink" ColumnName="FileLink" />
+          <ScalarProperty Name="ProfilePictureURL" ColumnName="ProfilePictureURL" />
+          <ScalarProperty Name="InsulinUsage" ColumnName="InsulinUsage" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="PhoneNumber" ColumnName="PhoneNumber" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="ShortCV" ColumnName="ShortCV" />
+          <ScalarProperty Name="Height" ColumnName="Height" />
+          <ScalarProperty Name="Weight" ColumnName="Weight" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="Surname" ColumnName="Surname" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Message">
+      <EntityTypeMapping TypeName="DiabetModel.Message">
+        <MappingFragment StoreEntitySet="Message">
+          <ScalarProperty Name="IsRead" ColumnName="IsRead" />
+          <ScalarProperty Name="SenderId" ColumnName="SenderId" />
+          <ScalarProperty Name="MessageLength" ColumnName="MessageLength" />
+          <ScalarProperty Name="MessageDate" ColumnName="MessageDate" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="MessageId" ColumnName="MessageId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RequestContactList">
+      <EntityTypeMapping TypeName="DiabetModel.RequestContactList">
+        <MappingFragment StoreEntitySet="RequestContactList">
+          <ScalarProperty Name="status" ColumnName="status" />
+          <ScalarProperty Name="ContactId" ColumnName="ContactId" />
+          <ScalarProperty Name="OwnerId" ColumnName="OwnerId" />
+          <ScalarProperty Name="RequestContactListID" ColumnName="RequestContactListID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagramsSet">
+      <EntityTypeMapping TypeName="DiabetModel.sysdiagrams">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="definition" ColumnName="definition" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="name" ColumnName="name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ContactList">
+      <EntityTypeMapping TypeName="DiabetModel.ContactList">
+        <MappingFragment StoreEntitySet="ContactList">
+          <ScalarProperty Name="ContactId" ColumnName="ContactId" />
+          <ScalarProperty Name="OwnerId" ColumnName="OwnerId" />
+          <ScalarProperty Name="ContactListID" ColumnName="ContactListID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AddBloodSugar">
+      <EntityTypeMapping TypeName="DiabetModel.AddBloodSugar">
+        <MappingFragment StoreEntitySet="AddBloodSugar">
+          <ScalarProperty Name="BloodSugarEntranceDate" ColumnName="BloodSugarEntranceDate" />
+          <ScalarProperty Name="BloodSugarValue" ColumnName="BloodSugarValue" />
+          <ScalarProperty Name="UserId" ColumnName="UserId" />
+          <ScalarProperty Name="BloodSugarID" ColumnName="BloodSugarID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DietList">
+      <EntityTypeMapping TypeName="DiabetModel.DietList">
+        <MappingFragment StoreEntitySet="DietList">
+          <ScalarProperty Name="InsulingUsage" ColumnName="InsulingUsage" />
+          <ScalarProperty Name="MinBMI" ColumnName="MinBMI" />
+          <ScalarProperty Name="MaxBMI" ColumnName="MaxBMI" />
+          <ScalarProperty Name="MaxAge" ColumnName="MaxAge" />
+          <ScalarProperty Name="MinAge" ColumnName="MinAge" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="DietListDate" ColumnName="DietListDate" />
+          <ScalarProperty Name="DietListContent" ColumnName="DietListContent" />
+          <ScalarProperty Name="GiveToId" ColumnName="GiveToId" />
+          <ScalarProperty Name="GivenFromId" ColumnName="GivenFromId" />
+          <ScalarProperty Name="DietListID" ColumnName="DietListID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="RecoverAccount2">
+      <EntityTypeMapping TypeName="DiabetModel.RecoverAccount2">
+        <MappingFragment StoreEntitySet="RecoverAccount2">
+          <ScalarProperty Name="userid" ColumnName="userid" />
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Key" ColumnName="Key" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Popular">
+      <EntityTypeMapping TypeName="DiabetModel.Popular">
+        <MappingFragment StoreEntitySet="Popular">
+          <ScalarProperty Name="Count" ColumnName="Count" />
+          <ScalarProperty Name="GivenFromId" ColumnName="GivenFromId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

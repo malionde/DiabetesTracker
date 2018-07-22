@@ -1,0 +1,333 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DiabetModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="AddBloodSugar">
+    <Key>
+      <PropertyRef Name="BloodSugarID" />
+    </Key>
+    <Property Name="BloodSugarID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="BloodSugarValue" Type="int" Nullable="false" />
+    <Property Name="BloodSugarEntranceDate" Type="datetime2" Precision="7" />
+  </EntityType>
+  <EntityType Name="ContactList">
+    <Key>
+      <PropertyRef Name="ContactListID" />
+    </Key>
+    <Property Name="ContactListID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OwnerId" Type="int" Nullable="false" />
+    <Property Name="ContactId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="DietList">
+    <Key>
+      <PropertyRef Name="DietListID" />
+    </Key>
+    <Property Name="DietListID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="GivenFromId" Type="int" Nullable="false" />
+    <Property Name="GiveToId" Type="int" Nullable="false" />
+    <Property Name="DietListContent" Type="nvarchar" MaxLength="4000" Nullable="false" />
+    <Property Name="DietListDate" Type="datetime2" Precision="7" />
+    <Property Name="Gender" Type="int" />
+    <Property Name="MinAge" Type="int" />
+    <Property Name="MaxAge" Type="int" />
+    <Property Name="MaxBMI" Type="float" />
+    <Property Name="MinBMI" Type="float" />
+    <Property Name="InsulingUsage" Type="nvarchar" MaxLength="3" />
+  </EntityType>
+  <EntityType Name="Login">
+    <Key>
+      <PropertyRef Name="Username" />
+    </Key>
+    <Property Name="UserId" Type="int" />
+    <Property Name="Username" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="256" Nullable="false" />
+    <Property Name="TypeApproval" Type="int" />
+  </EntityType>
+  <EntityType Name="Message">
+    <Key>
+      <PropertyRef Name="MessageId" />
+    </Key>
+    <Property Name="MessageId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserId" Type="int" Nullable="false" />
+    <Property Name="MessageDate" Type="datetime2" Precision="7" />
+    <Property Name="MessageLength" Type="nvarchar" MaxLength="400" Nullable="false" />
+    <Property Name="SenderId" Type="int" Nullable="false" />
+    <Property Name="IsRead" Type="int" />
+  </EntityType>
+  <EntityType Name="Parameter">
+    <Key>
+      <PropertyRef Name="GroupCode" />
+    </Key>
+    <Property Name="GroupCode" Type="int" Nullable="false" />
+    <Property Name="GroupName" Type="nchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="RecoverAccount2">
+    <Key>
+      <PropertyRef Name="Key" />
+    </Key>
+    <Property Name="Email" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Key" Type="bigint" Nullable="false" />
+    <Property Name="userid" Type="int" />
+    <Property Name="id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+  </EntityType>
+  <EntityType Name="RequestContactList">
+    <Key>
+      <PropertyRef Name="RequestContactListID" />
+    </Key>
+    <Property Name="RequestContactListID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="OwnerId" Type="int" Nullable="false" />
+    <Property Name="ContactId" Type="int" Nullable="false" />
+    <Property Name="status" Type="int" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="UserDetail">
+    <Key>
+      <PropertyRef Name="UserId" />
+    </Key>
+    <Property Name="UserId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Username" Type="nvarchar" MaxLength="20" Nullable="false" />
+    <Property Name="Surname" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="Height" Type="nvarchar" MaxLength="50" />
+    <Property Name="Mail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="PhoneNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="FileLink" Type="nvarchar" MaxLength="200" Nullable="false" />
+    <Property Name="Password" Type="nvarchar" MaxLength="256" />
+    <Property Name="BirthDate2" Type="datetime2" Precision="7" />
+    <Property Name="Type" Type="int" />
+    <Property Name="ShortCV" Type="nvarchar(max)" />
+    <Property Name="Weight" Type="nvarchar" MaxLength="50" />
+    <Property Name="Gender" Type="int" />
+    <Property Name="InsulinUsage" Type="nvarchar" MaxLength="3" />
+    <Property Name="ProfilePictureURL" Type="nvarchar" MaxLength="200" />
+    <Property Name="PreviousDisease" Type="nchar" MaxLength="1000" />
+    <Property Name="BMI" Type="float" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'Diabet.dbo.Popular' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="Popular">
+    <Key>
+      <PropertyRef Name="GivenFromId" />
+    </Key>
+    <Property Name="GivenFromId" Type="int" Nullable="false" />
+    <Property Name="Count" Type="int" />
+  </EntityType>
+  <Association Name="FK__AddBloodS__UserI__03F0984C">
+    <End Role="UserDetail" Type="Self.UserDetail" Multiplicity="1" />
+    <End Role="AddBloodSugar" Type="Self.AddBloodSugar" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="AddBloodSugar">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ContactLi__Conta__68487DD7">
+    <End Role="UserDetail" Type="Self.UserDetail" Multiplicity="1" />
+    <End Role="ContactList" Type="Self.ContactList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ContactList">
+        <PropertyRef Name="ContactId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ContactLi__Owner__693CA210">
+    <End Role="UserDetail" Type="Self.UserDetail" Multiplicity="1" />
+    <End Role="ContactList" Type="Self.ContactList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="ContactList">
+        <PropertyRef Name="OwnerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DietList__GivenF__0C85DE4D">
+    <End Role="UserDetail" Type="Self.UserDetail" Multiplicity="1" />
+    <End Role="DietList" Type="Self.DietList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="DietList">
+        <PropertyRef Name="GivenFromId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__DietList__GiveTo__0D7A0286">
+    <End Role="UserDetail" Type="Self.UserDetail" Multiplicity="1" />
+    <End Role="DietList" Type="Self.DietList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="DietList">
+        <PropertyRef Name="GiveToId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Login__UserId__17036CC0">
+    <End Role="UserDetail" Type="Self.UserDetail" Multiplicity="0..1" />
+    <End Role="Login" Type="Self.Login" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Login">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Message__SenderI__7D439ABD">
+    <End Role="UserDetail" Type="Self.UserDetail" Multiplicity="1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="SenderId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Message__UserId__7E37BEF6">
+    <End Role="UserDetail" Type="Self.UserDetail" Multiplicity="1" />
+    <End Role="Message" Type="Self.Message" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="Message">
+        <PropertyRef Name="UserId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RecoverAc__useri__3A4CA8FD">
+    <End Role="UserDetail" Type="Self.UserDetail" Multiplicity="0..1" />
+    <End Role="RecoverAccount2" Type="Self.RecoverAccount2" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="RecoverAccount2">
+        <PropertyRef Name="userid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestCo__Conta__46E78A0C">
+    <End Role="UserDetail" Type="Self.UserDetail" Multiplicity="1" />
+    <End Role="RequestContactList" Type="Self.RequestContactList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="RequestContactList">
+        <PropertyRef Name="ContactId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__RequestCo__Owner__45F365D3">
+    <End Role="UserDetail" Type="Self.UserDetail" Multiplicity="1" />
+    <End Role="RequestContactList" Type="Self.RequestContactList" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserDetail">
+        <PropertyRef Name="UserId" />
+      </Principal>
+      <Dependent Role="RequestContactList">
+        <PropertyRef Name="OwnerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_RecoverAccount2_RecoverAccount2">
+    <End Role="RecoverAccount2" Type="Self.RecoverAccount2" Multiplicity="1" />
+    <End Role="RecoverAccount21" Type="Self.RecoverAccount2" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="RecoverAccount2">
+        <PropertyRef Name="Key" />
+      </Principal>
+      <Dependent Role="RecoverAccount21">
+        <PropertyRef Name="Key" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DiabetModelStoreContainer">
+    <EntitySet Name="AddBloodSugar" EntityType="Self.AddBloodSugar" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ContactList" EntityType="Self.ContactList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DietList" EntityType="Self.DietList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Login" EntityType="Self.Login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Message" EntityType="Self.Message" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Parameter" EntityType="Self.Parameter" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RecoverAccount2" EntityType="Self.RecoverAccount2" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="RequestContactList" EntityType="Self.RequestContactList" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="UserDetail" EntityType="Self.UserDetail" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Popular" EntityType="Self.Popular" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [Popular].[GivenFromId] AS [GivenFromId], 
+    [Popular].[Count] AS [Count]
+    FROM [dbo].[Popular] AS [Popular]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__AddBloodS__UserI__03F0984C" Association="Self.FK__AddBloodS__UserI__03F0984C">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="AddBloodSugar" EntitySet="AddBloodSugar" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ContactLi__Conta__68487DD7" Association="Self.FK__ContactLi__Conta__68487DD7">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="ContactList" EntitySet="ContactList" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ContactLi__Owner__693CA210" Association="Self.FK__ContactLi__Owner__693CA210">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="ContactList" EntitySet="ContactList" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DietList__GivenF__0C85DE4D" Association="Self.FK__DietList__GivenF__0C85DE4D">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="DietList" EntitySet="DietList" />
+    </AssociationSet>
+    <AssociationSet Name="FK__DietList__GiveTo__0D7A0286" Association="Self.FK__DietList__GiveTo__0D7A0286">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="DietList" EntitySet="DietList" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Login__UserId__17036CC0" Association="Self.FK__Login__UserId__17036CC0">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="Login" EntitySet="Login" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Message__SenderI__7D439ABD" Association="Self.FK__Message__SenderI__7D439ABD">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Message__UserId__7E37BEF6" Association="Self.FK__Message__UserId__7E37BEF6">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="Message" EntitySet="Message" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RecoverAc__useri__3A4CA8FD" Association="Self.FK__RecoverAc__useri__3A4CA8FD">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="RecoverAccount2" EntitySet="RecoverAccount2" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestCo__Conta__46E78A0C" Association="Self.FK__RequestCo__Conta__46E78A0C">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="RequestContactList" EntitySet="RequestContactList" />
+    </AssociationSet>
+    <AssociationSet Name="FK__RequestCo__Owner__45F365D3" Association="Self.FK__RequestCo__Owner__45F365D3">
+      <End Role="UserDetail" EntitySet="UserDetail" />
+      <End Role="RequestContactList" EntitySet="RequestContactList" />
+    </AssociationSet>
+    <AssociationSet Name="FK_RecoverAccount2_RecoverAccount2" Association="Self.FK_RecoverAccount2_RecoverAccount2">
+      <End Role="RecoverAccount2" EntitySet="RecoverAccount2" />
+      <End Role="RecoverAccount21" EntitySet="RecoverAccount2" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

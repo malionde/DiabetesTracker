@@ -1,0 +1,46 @@
+USE [Diabet]
+GO
+
+/****** Object:  Table [dbo].[UserDetail]    Script Date: 22.04.2018 15:30:26 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+CREATE TABLE [dbo].[UserDetail](
+	[UserId] [int] IDENTITY(1,1) NOT NULL,
+	[Name] [nvarchar](50) NOT NULL,
+	[Username] [nvarchar](20) NOT NULL,
+	[Surname] [nvarchar](50) NOT NULL,
+	[BirthDate] [nvarchar](200) NULL,
+	[Gender] [int] NOT NULL,
+	[Weight] [nvarchar](50) NOT NULL,
+	[Height] [nvarchar](50) NOT NULL,
+	[ShortCV] [nvarchar](max) NULL,
+	[Mail] [nvarchar](50) NOT NULL,
+	[PhoneNumber] [nvarchar](50) NOT NULL,
+	[InsulinUsage] [nvarchar](3) NULL,
+	[ProfilePictureURL] [nvarchar](200) NULL,
+	[FileLink] [nvarchar](200) NULL,
+	[Type] [nvarchar](20) NULL,
+	[PreviousDisease] [nvarchar](1000) NULL,
+	[Password] [nvarchar](10) NULL,
+ CONSTRAINT [PK_UserDetail] PRIMARY KEY CLUSTERED 
+(
+	[UserId] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY],
+UNIQUE NONCLUSTERED 
+(
+	[Username] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+GO
+
+ALTER TABLE [dbo].[UserDetail] ADD  DEFAULT ('~/Content/dis/img/avatar.png') FOR [ProfilePictureURL]
+GO
+
+ALTER TABLE [dbo].[UserDetail]  WITH CHECK ADD CHECK  (([InsulinUsage]='Yes' OR [InsulinUsage]='No'))
+GO
+
+

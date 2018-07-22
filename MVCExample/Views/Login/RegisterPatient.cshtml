@@ -1,0 +1,138 @@
+﻿
+@using MVCExample.Models
+
+@model UserDetail
+
+@{
+
+    ViewBag.Title = "RegisterPatient";
+
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+
+}
+
+<link href="~/Content/bootstrap/css/mvcNotify.css" rel="stylesheet" />
+
+<link href="~/Content/bootstrap/css/font-awesome.css" rel="stylesheet" />
+@Styles.Render("~/Content/toastr")
+
+
+
+
+<form action="" method="post" enctype="multipart/form-data">
+
+
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.Username, new { @class = "form-control", @placeholder = "UserName" })
+
+        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+
+    </div>
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.Password, new { @class = "form-control", @placeholder = "Password", @type = "Password" })
+
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+
+    </div>
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.Surname, new { @class = "form-control", @placeholder = "Surname" })
+
+        <span class="glyphicon glyphicon-font form-control-feedback"></span>
+
+    </div>
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @placeholder = "Name" })
+
+        <span class="glyphicon glyphicon-font form-control-feedback"></span>
+
+    </div>
+   @*Gender drop-down menu oluşturulacak*@
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.Weight, new { @class = "form-control", @placeholder = "Weight" ,@type="number"})
+
+        <span class="glyphicon glyphicon-dashboard form-control-feedback"></span>
+
+    </div>
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.Height, new { @class = "form-control", @placeholder = "Height" , @type="number"})
+
+        <span class="glyphicon glyphicon-sort form-control-feedback"></span>
+
+    </div>
+    <div class="form-group has-feedback">
+       
+        @Html.TextBoxFor(m => m.Mail, new { @class = "form-control", @placeholder = "Mail",@type="email" })
+
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+
+    </div>
+
+    <div class="form-group has-feedback">
+        
+        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control", @placeholder = "Phone Number",@type="number" })
+
+        <span class="glyphicon glyphicon-phone form-control-feedback"></span>
+
+    </div>
+    <div class="form-group has-feedback">
+
+        @Html.DropDownListFor(m => m.Gender, (SelectList)ViewBag.GetGender, "Chose Gender", new { @id = "Cinsiyet", @class = "form-control select2" })
+
+    </div>
+    <div class="form-group has-feedback">
+
+        <input class="form-control" type="date" name="dtime" />
+    </div>
+
+
+    <div class="form-group has-feedback">
+
+        @Html.DropDownListFor(m => m.InsulinUsage, (SelectList)ViewBag.GetInsulin, "Do you use insuling?", new { @id = "Insulin", @class = "form-control select2" })
+
+
+    </div>
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.PreviousDisease, new { @class = "form-control", @placeholder = "Write your previous disease if it is exists." })
+
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+
+    </div>
+    <div class="box box-success">
+        <div class="box-header ui-sortable-handle" style="cursor: move;">
+
+
+            <label for="file">Filename:</label>
+            <input type="file" name="file" id="file" />
+
+
+
+        </div>
+    </div>
+    <div class="row">
+
+        <div class="col-xs-12 text-center ">
+
+            @*<button type="submit" name="Command" value="RegisterPatient" class="btn btn-primary btn-block btn-flat">Register</button>*@
+            <input type="submit" name="Command" value="RegisterPatient" />
+            <a href="../Index">
+                <button type="button" class="btn btn-default btn-block btn-flat">Have an account?</button>
+            </a>
+
+            <p>@TempData["errormessage"]</p>
+        </div>
+
+        <!-- /.col -->
+        <!-- /.col -->
+
+    </div>
+    </form>
+    
+
+

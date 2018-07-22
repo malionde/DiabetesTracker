@@ -1,0 +1,441 @@
+﻿@using MVCExample.Models
+@model Tuple<Login, IEnumerable<RequestContactList>, IEnumerable<ContactList>, IEnumerable<DietList>>
+
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_mainView.cshtml";
+
+}
+@using (Html.BeginForm("Search", "Home"))
+{<div class="search" style="padding-top:10px; padding-left:15px;">
+        <input type="text" style="float:left;width:93%;" name="search" class="form-control" placeholder="Search...">
+
+        <span class="input-group-btn">
+            <button type="submit" id="search-btn" class="btn btn-flat">
+                <i class="fa fa-search"></i>
+            </button>
+        </span>
+
+    </div>
+}
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Dashboard
+        <small>it all starts here</small>
+    </h1>
+
+</section>
+<!-- Main content -->
+<section class="content">
+
+    <div class="box box-warning" style="position: relative; left: 0px; top: 0px;">
+        <div class="box-header ui-sortable-handle" style="cursor: move;">
+            <i class="ion ion-clipboard"></i>
+
+            <h3 class="box-title">Friend Requests</h3>
+
+            <div class="box-body">
+                <!-- See dist/js/pages/dashboard.js to activate the todoList plugin -->
+
+
+                @{ int counter3 = 0;}
+                @foreach (var b in Model.Item2)
+                {
+
+                    var id = string.Format("confirmmm-{0}", ++counter3);
+                    var target = string.Format("#{0}", id);
+
+                    using (Html.BeginForm("AcceptRequest", "Experts"))
+                    {
+
+                        <img type="image" class="myclass" src="@b.UserDetail1.ProfilePictureURL" style="width: 40px; height: 40px;
+  border: 2px solid transparent;
+  border-radius: 50%;" />
+                        <input type="hidden" name="acceptid" value="@b.RequestContactListID" />
+                        <a href="#" class="name">
+
+                            @b.UserDetail1.Name @b.UserDetail1.Surname
+                        </a>
+                        <input type="submit" value="AcceptRequest" />
+                        <div class="tools">
+                            <br>
+
+                        </div>
+                    }
+                    <!-- /.box-body -->
+                }
+
+
+            </div>
+            <!-- /.box-header -->
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-aqua">
+                <div class="inner">
+
+                    <button type="button" class="small-box bg-aqua" style="width:155px; height:57px; border:0; outline:0; box-shadow:0 0 0 0px !Important;" data-toggle="modal" data-target="#exampleModal">
+
+                        <h3>ADD</h3>
+                        <p>Blood Sugar Value</p>
+                    </button>
+                </div>
+                <div class="icon">
+                    <i class="glyphicon glyphicon-plus"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-green">
+                <div class="inner">
+                    @*---------------------------------------------------------------------------------------------------------*@
+                    <h3>MEAN @TempData["MeanValue"]</h3>
+                    <p>Mean Value</p>
+                </div>
+                <div class="icon">
+                    <i class="glyphicon glyphicon-ok"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-yellow">
+                <div class="inner">
+                    <h3>See</h3>
+                    <p>detail BSL</p>
+                </div>
+                <div class="icon">
+                    <i class="glyphicon glyphicon-list"></i>
+                </div>
+
+
+                <a href="/Home/Details" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
+            <div class="small-box bg-red">
+                <div class="inner">
+                    <h3>@TempData["Totalday"]<sup style="font-size: 20px">Value</sup></h3>
+                    <p>We are on track</p>
+                </div>
+                <div class="icon">
+                    <i class="glyphicon glyphicon-stats"></i>
+                </div>
+                <a href="#" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+    </div>
+    @using (@Html.BeginForm("AddBloodSugarLevel", "Home", FormMethod.Post))
+    {
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Add Blood Value</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group has-feedback">
+                            <a> </a>
+
+                            <input class="form-control allownumericwithoutdecimal target" placeholder="Type message..." name="level">
+                            <span class="glyphicon glyphicon-alert form-control-feedback"></span>
+
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="submit" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    }
+    <!--Line/Charts-->
+    <div class="box box-success">
+        <div class="box-header ui-sortable-handle" style="cursor: move;">
+            @Html.ActionLink("Line Chart", "Index", "LineChart")
+            <canvas id="lineChart" width="400" height="150"></canvas>
+        </div>
+    </div>
+
+    <!--File Upload Function-->
+    <div class="box box-success">
+        <div class="box-header ui-sortable-handle" style="cursor: move;">
+            <a class="btn btn-primary" href="/Home/Matched">See people similar to you.</a>
+            <a class="btn btn-primary" href="/Home/PopularUsers">See The Most Popular User.</a>
+        </div>
+    </div>
+    <!--Messages/Contacts-->
+    <div class="box box-success">
+        <div class="box-header ui-sortable-handle" style="cursor: move;">
+            <i class="fa fa-comments-o"></i>
+
+            <h3 class="box-title" id="chat">Chat</h3>
+
+            <div class="box-tools pull-right" data-toggle="tooltip" title="" data-original-title="Status">
+
+                <div class="btn-group" data-toggle="btn-toggle">
+
+                    <button type="button" id="btnislem" class="btn btn-default btn-sm active" /><i class="fa fa-square text-green">
+                    </i>
+
+                    <button id="btnislem2" type="button" class="btn btn-default btn-sm"><i class="fa fa-square text-red"></i></button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="slimScrollDiv" style="position: relative; overflow: auto; width: auto; height: 250px;">
+
+
+
+
+            <div class="box-body chat" id="chat-box" style="overflow: auto; width: auto; height: 250px; ">
+                <div id="divAlan"></div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 184.911px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div>
+        </div>
+        <!-- /.chat -->
+
+    </div>
+    <!--Diet List-->
+
+    <div class="box box-primary" style="position: relative; left: 0px; top: 0px;">
+        <div class="box-header ui-sortable-handle" style="cursor: move;">
+            <i class="ion ion-clipboard"></i>
+
+            <h3 class="box-title">Diet&Exercise Lists</h3>
+
+
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+            <!-- See dist/js/pages/dashboard.js to activate the todoList plugin -->
+
+
+            @{ int counter2 = 0;}
+            @foreach (var b in Model.Item4)
+            {
+
+                var id = string.Format("confirmm-{0}", ++counter2);
+                var target = string.Format("#{0}", id);
+
+
+
+                <button type="button" class="btn btn-primary" data-target="#exampleModal2" data-toggle="modal" onclick="dtlist(@b.DietListID)" style="" id="@id" value="@b.DietListID"> @b.UserDetail.Name @b.UserDetail.Surname</button>
+
+                <small class="label label-info"><i class="fa fa-clock-o"></i> @b.DietListDate</small>
+
+                <div class="tools">
+                    <br>
+
+                </div>
+
+                <!-- /.box-body -->
+            }
+
+
+            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Diet&Exercise List</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group has-feedback">
+                                <a> </a>
+
+                                <div id="dietlistt"></div>
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+
+                            <a class="btn btn-primary" href="/Home/DeleteDietList" id="deletelist">
+                                Delete List
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <!-- Diet List Finish-->
+
+</section>
+<!-- /.content -->
+@Scripts.Render("~/Scripts/jquery-3.3.1.js")
+<script>
+    function a() {
+    $.ajax({
+                url: '@Url.Action("Index", "SendMailer")',
+                type: 'POST',
+                dataType: 'html',
+                data: {},
+                success: function (data) {
+                    $("#mail-send").html(data);
+
+                },
+                error: function () {
+                    alert("Hata alındı.");
+                }
+            });
+    }
+</script>
+<script>
+    function dtlist(mydata) {
+
+        $.ajax({
+            url: '@Url.Action("DietList", "Home")',
+            type: 'POST',
+            dataType: 'html',
+            data: { id: mydata },
+            success: function (data) {
+
+                $('#dietlistt').html(data);
+                $('#exampleModal2').modal();
+
+
+            },
+            error: function () { alert("Hata Alındı"); }
+        })
+
+        };
+
+    $(document).ready(function () {
+        $(function () {
+            $('#btnislem').click();
+        });
+       $("#btnislem").click(function () {
+           var id = (this)
+           chat.innerText = "Contacts";
+            $.ajax({
+                url: '@Url.Action("ContactList", "Home")',
+                type: 'POST',
+                dataType: 'html',
+                data: { id: @Model.Item1.UserId},
+                success: function (data) {
+                    $("#chat-box").html(data);
+                },
+                error: function () {
+                    alert("Hata alındı.");
+                }
+            });
+        });
+    });
+</script>
+<script>
+    $(".allownumericwithoutdecimal").on("keypress keyup blur", function (event) {
+
+        $(this).val($(this).val().replace(/[^\d].+/, ""));
+
+        if ((event.which < 48 || event.which > 57)) {
+
+            event.preventDefault();
+
+        }
+
+        $('.target').change(function () {
+            if ($(this).val() > 500) {
+                // Do something, like warn them and/or reset to empty text.
+                alert('Blood sugar level is so high. If this is a real value you should see your doctor');
+                $(this).val('');
+
+            }
+
+
+        });
+    });
+</script>
+@*//-------------Line Chart----------------------------------*@
+<script src="~/Scripts/Common.js"></script>
+<script src="~/Scripts/Chart.js"></script>
+<script>
+    var c = document.getElementById("lineChart");
+    var ctx = c.getContext("2d");
+    var tData = $.getValues("/LineChart/LineChartData");
+    var myLineChart = new Chart(ctx, {
+        type: 'line',
+        data: tData
+    });
+</script>
+
+@section nameofuser
+{
+
+    @Model.Item1.UserDetail.Name
+    @Model.Item1.UserDetail.Surname
+
+
+}
+@section nameofuser2
+
+{
+    @Model.Item1.UserDetail.Name
+    @Model.Item1.UserDetail.Surname
+}
+
+@section img1
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section img2
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section img4
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section mainurl
+{
+    @Url.Content("/Home")
+}
+@section profile1
+{ @Url.Action("Profile1", "Home")
+}
+@section messagenotification
+{
+    @ViewBag.notify
+}
+
+
+@*data-target="#exampleModal2" data-toggle="modal" *@

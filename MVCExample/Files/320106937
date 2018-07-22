@@ -1,0 +1,12 @@
+<div class="box-footer">
+            <div class="input-group">
+                @Html.BeginForm("AddMessage", "Home"){ 
+                <input class="form-control" placeholder="Type message..." name="typedmessage">
+                <input hidden value="messid" name="id"/>
+                <div class="input-group-btn">
+                    <button type="button" id="addmessage" class="btn btn-success"><i class="fa fa-plus"></i></button>
+                </div>
+                
+                }
+            </div>
+        </div>

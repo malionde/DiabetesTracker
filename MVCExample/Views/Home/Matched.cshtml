@@ -1,0 +1,78 @@
+﻿@using MVCExample.Models
+@model Tuple<Login, IEnumerable<UserDetail>>
+@{
+    ViewBag.Title = "Search";
+    Layout = "~/Views/Shared/_mainView.cshtml";
+}
+
+<h2 style="padding-left:15px; padding-top:10px;">Matched People</h2>
+
+
+@{ int counter = 0;}
+@foreach (var item in Model.Item2)
+{
+    var id = string.Format("confirm-{0}", ++counter);
+    var target = string.Format("#{0}", id);
+
+
+    <div class="box-body box-profile center-block" style="float:left;">
+        <img name="subject" type="image" class="profile-user-img img-responsive img-circle" src="@item.ProfilePictureURL" alt="User profile picture">
+
+
+        <h3 class="profile-username text-center">  @Html.DisplayFor(modelItem => item.Name) @Html.DisplayFor(modelItem => item.Surname)</h3>
+
+        <h5 class="text-muted text-center"> Username: @Html.DisplayFor(modelITem => item.Username)</h5>
+        <br />
+        <h5 class="text-muted text-center" style="width:200px;">
+            <strong><i class="fa fa-file-text-o margin-r-5"></i> Short CV</strong>
+            <br />
+            @Html.DisplayFor(modelITem => item.ShortCV)
+        </h5>
+
+        @using (Html.BeginForm("AddPerson", "Home", new { add = item.UserId }))
+        {
+            <input type="hidden" name="add" value="@Html.DisplayFor(modelItem => item.UserId)" id="aa + @Html.DisplayFor(modelItem => item.UserId)" />
+            <button style="margin: 0 auto; width:70%;" type="submit" class="btn btn-primary btn-block " value="AddPerson"
+                    id="aa + @Html.DisplayFor(modelItem => item.UserId)">
+                <b>Send Request</b>
+            </button>
+        }
+
+        <p> @TempData["requestmessage"] </p>
+    </div>
+}
+
+@section nameofuser
+{
+
+    @Model.Item1.UserDetail.Name
+    @Model.Item1.UserDetail.Surname
+
+
+}
+@section nameofuser2
+
+{
+    @Model.Item1.UserDetail.Name
+    @Model.Item1.UserDetail.Surname
+}
+
+@section img1
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section img2
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section img4
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section mainurl
+{
+    @Url.Content("/Home")
+}
+@section profile1
+{ @Url.Action("Profile1", "Home")
+}

@@ -1,0 +1,60 @@
+﻿@using MVCExample.Models
+@model IEnumerable<Message>
+@{
+    
+
+}
+<div class="box-footer">
+    <div class="input-group" style="width:100%;">
+         
+
+        @using(@Html.BeginForm("AddMessage", "Home"))
+        {
+
+        <input class="form-control" placeholder="Type message..." name="typedmessage" style="width:92%;">
+        <input type="hidden" value="@Model.First().UserDetail1.UserId.ToString()" name="id1" />
+        <input type="hidden" value="@Model.First().UserDetail.UserId.ToString()" name="id2" />
+        <div class="input-group-btn">
+            <button type="submit" id="addmessage" class="btn btn-success"><i class="fa fa-check-square"></i></button>
+        </div>
+
+        }
+
+    </div>
+    </div>
+
+     
+    @foreach (var item in Model)
+    {
+
+
+<div class="item">
+    <img src="~/Content/dist/img/avatar.png" alt="user image" class="online" />
+
+    <p class="message">
+        <a href="#" class="name">
+            <small class="text-muted pull-right"><i class="fa fa-clock-o"></i> @Html.DisplayFor(modelItem => item.MessageDate) </small>
+            @Html.DisplayFor(modelItem => item.UserDetail1.Name) @Html.DisplayFor(modelItem => item.UserDetail1.Surname)
+
+        </a>
+        @Html.DisplayFor(modelItem => item.MessageLength)
+    </p>
+    
+    @*<div class="attachment">
+                 <h4>Attachments:</h4>
+
+                @<p class="filename">
+                     Theme-thumbnail-image.jpg
+                 </p>
+
+                 <div class="pull-right">
+                     <button type="button" class="btn btn-primary btn-sm btn-flat">Open</button>
+                 </div>
+        </div>*@
+</div>
+    }
+
+
+
+
+

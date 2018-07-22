@@ -1,0 +1,22 @@
+﻿@model MVCExample.Models.MailModel
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+}
+
+<h2>Recover</h2>
+<fieldset>
+    <legend>
+        Recover Your Account
+    </legend>
+    @using (Html.BeginForm())
+    {
+        @Html.ValidationSummary()
+       
+        <p>To take a recovery link write your email.</p>
+        <p>@Html.TextBoxFor(m => m.To)</p>
+        
+        
+        <input type="submit" value="Send" />
+    }
+</fieldset> 

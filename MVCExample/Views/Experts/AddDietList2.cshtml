@@ -1,0 +1,78 @@
+﻿@using MVCExample.Models
+@model DietList
+@{
+    ViewBag.Title = "AddDietList2";
+    Layout = "~/Views/Shared/_mainView.cshtml";
+}
+
+<h2 style="padding-left:15px; padding-top:10px;">Add Diet/Exercise List </h2>
+
+
+@using (Html.BeginForm())
+{
+    <div class="box box-success">
+        <div class="box-header with-border">
+            <h3 class="box-title">Fill the inputs</h3>
+        </div>
+        <div class="box-body">
+            @*@Html.HiddenFor(model => model.Item2.DietListID)*@
+            <div class="form-group">
+                @Html.EditorFor(model => model.MaxAge, new { htmlAttributes = new { @class = "form-control", @placeholder = "Max Age" , @type = "number" } })
+                @Html.EditorFor(model => model.MinAge, new { htmlAttributes = new { @class = "form-control", @placeholder = "Min Age" , @type = "number" } })
+            </div>
+            <div class="form-group">
+                @Html.EditorFor(model => model.MaxBMI, new { htmlAttributes = new { @class = "form-control", @placeholder = "Max BMI :  Weight/Height^2       Like 110kg/(1.82m)^2", @type = "number" } })
+                @Html.EditorFor(model => model.MaxBMI, new { htmlAttributes = new { @class = "form-control", @placeholder = "Min BMI :  Weight/Height^2       Like 110kg/(1.82m)^2" ,@type="number"} })
+            </div>
+            <div class="form-group">
+                @Html.DropDownListFor(model =>model.InsulingUsage, (SelectList)ViewBag.GetInsulin, "Insulin Usage?", new { @id = "Insulin", @class = "form-control select2" })
+            </div>
+            <div class="form-group">
+                @Html.DropDownListFor(model => model.Gender, (SelectList)ViewBag.GetGender, "Chose Gender", new { @id = "Cinsiyet", @class = "form-control select2" })
+            </div>
+            <div class="form-group">
+                @Html.TextAreaFor(model => model.DietListContent, new { @class = "form-control", rows = "5", @placeholder = "Diet/Exercise List Content" })
+            </div>
+        </div>
+        <!-- /.box-body -->
+    </div>
+
+    @Html.HiddenFor(model => model.DietListID)
+    <input type="submit" value="Save" class="btn btn-primary btn-block btn-flat" />
+
+
+}
+@*@section nameofuser
+{
+
+    @Model.Item1.UserDetail.Name
+    @Model.Item1.UserDetail.Surname
+
+
+}
+@section nameofuser2
+
+{
+    @Model.Item1.UserDetail.Name
+    @Model.Item1.UserDetail.Surname
+}
+
+@section img1
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section img2
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section img4
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}*@
+@section mainurl
+{
+    @Url.Content("/Experts")
+}
+@section profile1
+{ @Url.Action("Profile1", "Experts")
+}

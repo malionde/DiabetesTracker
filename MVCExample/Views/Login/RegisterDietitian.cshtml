@@ -1,0 +1,109 @@
+﻿
+@using MVCExample.Models
+
+@model UserDetail
+
+@{
+
+    ViewBag.Title = "RegisterDietitian";
+
+    Layout = "~/Views/Shared/_LayoutLogin.cshtml";
+
+}
+
+<link href="~/Content/bootstrap/css/mvcNotify.css" rel="stylesheet" />
+
+<link href="~/Content/bootstrap/css/font-awesome.css" rel="stylesheet" />
+@Styles.Render("~/Content/toastr")
+
+
+
+
+<form action="" method="post" enctype="multipart/form-data">
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.Username, new { @class = "form-control", @placeholder = "UserName" })
+
+        <span class="glyphicon glyphicon-user form-control-feedback"></span>
+
+    </div>
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.Password, new { @class = "form-control", @placeholder = "Password", @type = "Password" })
+
+        <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+
+    </div>
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.Surname, new { @class = "form-control", @placeholder = "Surname" })
+
+        <span class="glyphicon glyphicon-font form-control-feedback"></span>
+
+    </div>
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.Name, new { @class = "form-control", @placeholder = "Name", })
+
+        <span class="glyphicon glyphicon-font form-control-feedback"></span>
+
+    </div>
+    @*//Gender drop-down menu oluşturulacak*@
+
+
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.Mail, new { @class = "form-control", @placeholder = "Mail" ,@type="email"})
+
+        <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
+
+    </div>
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.ShortCV, new { @class = "form-control", @placeholder = "ShortCV" })
+
+        <span class="glyphicon glyphicon-pencil form-control-feedback"></span>
+
+    </div>
+    <div class="form-group has-feedback">
+
+        @Html.TextBoxFor(m => m.PhoneNumber, new { @class = "form-control", @placeholder = "Phone Number", @type ="number"})
+
+        <span class="glyphicon glyphicon-phone form-control-feedback"></span>
+
+    </div>
+    <div class="box box-success">
+        <div class="box-header ui-sortable-handle" style="cursor: move;">
+
+
+            <label for="file">Filename:</label>
+            <input type="file" name="file" id="file" />
+
+
+
+        </div>
+    </div>
+
+
+
+
+    <div class="row">
+
+        <div class="col-xs-12 text-center ">
+
+            <input type="submit" name="Command" value="RegisterExpert" />
+            <a href="../Index">
+                <button type="button" class="btn btn-default btn-block btn-flat">Have an account?</button>
+            </a>
+
+
+        </div>
+    </div>
+
+    <!-- /.col -->
+    <!-- /.col -->
+    
+
+</form>
+
+

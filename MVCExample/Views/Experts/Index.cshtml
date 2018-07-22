@@ -1,0 +1,279 @@
+﻿@using MVCExample.Models
+@model Tuple<Login, IEnumerable<RequestContactList>, IEnumerable<ContactList>, IEnumerable<DietList>>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_mainView.cshtml";
+}
+
+
+
+
+
+
+<!-- Content Header (Page header) -->
+<section class="content-header">
+    <h1>
+        Experts Page
+        <small>it all starts here</small>
+    </h1>
+
+</section>
+<!-- Main content -->
+<section class="content">
+    <!-- Default box -->
+    <!-- /.box -->
+    <div class="box box-warning" style="position: relative; left: 0px; top: 0px;">
+        <div class="box-header ui-sortable-handle" style="cursor: move;">
+            <i class="ion ion-clipboard"></i>
+
+            <h3 class="box-title">Friend Requests</h3>
+
+            <div class="box-body">
+                <!-- See dist/js/pages/dashboard.js to activate the todoList plugin -->
+
+
+                @{ int counter3 = 0;}
+                @foreach (var b in Model.Item2)
+                {
+
+                    var id = string.Format("confirmmm-{0}", ++counter3);
+                    var target = string.Format("#{0}", id);
+
+                    using (Html.BeginForm("AcceptRequest", "Experts"))
+                    {
+
+                        <img type="image" class="myclass" src="@b.UserDetail1.ProfilePictureURL" style="width: 40px; height: 40px;
+  border: 2px solid transparent;
+  border-radius: 50%;" />
+                        <input type="hidden" name="acceptid" value="@b.RequestContactListID" />
+                        <a href="#" class="name">
+
+                            @b.UserDetail1.Name @b.UserDetail1.Surname
+                        </a>
+                        <input type="submit" value="AcceptRequest" />
+                        <div class="tools">
+                            <br>
+
+                        </div>
+                    }
+                    <!-- /.box-body -->
+                }
+
+
+            </div>
+            <!-- /.box-header -->
+
+        </div>
+    </div>
+
+    <!--Messages/Contacts-->
+    <div class="box box-success">
+        <div class="box-header ui-sortable-handle" style="cursor: move;">
+            <i class="fa fa-comments-o"></i>
+
+            <h3 class="box-title" id="chat">Chat</h3>
+
+            <div class="box-tools pull-right" data-toggle="tooltip" title="" data-original-title="Status">
+
+                <div class="btn-group" data-toggle="btn-toggle">
+
+                    <button type="button" id="btnislem" class="btn btn-default btn-sm active" /><i class="fa fa-square text-green">
+                    </i>
+
+                    <button id="btnislem2" type="button" class="btn btn-default btn-sm"><i class="fa fa-square text-red"></i></button>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="slimScrollDiv" style="position: relative; overflow: auto; width: auto; height: 250px;">
+
+
+
+
+            <div class="box-body chat" id="chat-box" style="overflow: auto; width: auto; height: 250px; ">
+                <div id="divAlan"></div>
+
+
+            </div>
+
+
+
+
+
+
+
+
+
+            <div class="slimScrollBar" style="background: rgb(0, 0, 0); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 184.911px;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; background: rgb(51, 51, 51); opacity: 0.2; z-index: 90; right: 1px;"></div>
+        </div>
+        <!-- /.chat -->
+
+    </div>
+    <!--Diet List-->
+
+    <div class="box box-primary" style="position: relative; left: 0px; top: 0px;">
+        <div class="box-header ui-sortable-handle" style="cursor: move;">
+            <i class="ion ion-clipboard"></i>
+
+            <h3 class="box-title">Diet&Excercise Lists</h3>
+
+
+        </div>
+        <!-- /.box-header -->
+        <div class="box-body">
+            <!-- See dist/js/pages/dashboard.js to activate the todoList plugin -->
+            <div style="overflow:hidden" class="">
+
+                @{ int counter2 = 0;}
+                @foreach (var b in Model.Item4)
+                {
+
+                    var id = string.Format("confirmm-{0}", ++counter2);
+                    var target = string.Format("#{0}", id);
+
+
+
+                    <button type="button" class="btn btn-primary" data-target="#exampleModal2" data-toggle="modal" onclick="dtlist(@b.DietListID)" style="" id="@id" value="@b.DietListID"> @b.UserDetail1.Name @b.UserDetail1.Surname</button>
+
+                    <small class="label label-info"><i class="fa fa-clock-o"></i> @b.DietListDate</small>
+
+                    <div class="tools">
+                        <br>
+
+                    </div>
+
+                    <!-- /.box-body -->
+                }
+            </div>
+
+
+            <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Diet&Exercise List</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="form-group has-feedback">
+                                <a> </a>
+
+                                <div id="dietlistt"></div>
+
+
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+
+
+                            <a class="btn btn-primary" href="/Home/DeleteDietList" id="deletelist">
+                                Delete List
+                            </a>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            @using (Html.BeginForm("AddDietList", "Experts"))
+            {
+
+                <div class="box-footer clearfix no-border">
+                    <button type="Submit" class="btn btn-default pull-right"><i class="fa fa-plus"></i> Add item</button>
+                </div>
+            }
+
+        </div>
+    </div>
+
+    <!-- Diet List Finish-->
+
+</section>
+<!-- /.content -->
+@Scripts.Render("~/Scripts/jquery-3.3.1.js")
+<script>
+    function dtlist(mydata) {
+
+        $.ajax({
+            url: '@Url.Action("DietList","Home")',
+            type: 'POST',
+            dataType: 'html',
+            data: { id: mydata },
+            success: function (data) {
+
+                $('#dietlistt').html(data);
+                $('#exampleModal2').modal();
+
+
+            },
+            error: function () { alert("Hata Alındı"); }
+        })
+
+        };
+
+    $(document).ready(function () {
+        $(function () {
+            $('#btnislem').click();
+        });
+       $("#btnislem").click(function () {
+           var id = (this)
+           chat.innerText = "Messages";
+            $.ajax({
+                url: '@Url.Action("ContactList","Experts")',
+                type: 'POST',
+                dataType: 'html',
+                data: { id: @Model.Item1.UserId},
+                success: function (data) {
+                    $("#chat-box").html(data);
+                },
+                error: function () {
+                    alert("Hata alındı.");
+                }
+            });
+        });
+    });
+</script>
+@section nameofuser
+{
+
+    @Model.Item1.UserDetail.Name
+    @Model.Item1.UserDetail.Surname
+
+
+}
+@section nameofuser2
+
+{
+    @Model.Item1.UserDetail.Name
+    @Model.Item1.UserDetail.Surname
+}
+
+@section img1
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section img2
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section img4
+{
+    @Model.Item1.UserDetail.ProfilePictureURL
+}
+@section mainurl
+{
+    @Url.Content("/Experts")
+}
+@section profile1
+{ @Url.Action("Profile1", "Experts")
+}
+@section messagenotification
+{
+    @ViewBag.notify
+}
+
+@*data-target="#exampleModal2" data-toggle="modal" *@

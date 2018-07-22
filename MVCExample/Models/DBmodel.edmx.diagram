@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="552194af61994a65b8038f93d694a4f9" Name="Diagram1">
+        <EntityTypeShape EntityType="DiabetModel.Parameter" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="DiabetModel.Login" Width="1.5" PointX="0.75" PointY="0.625" />
+        <EntityTypeShape EntityType="DiabetModel.UserDetail" Width="1.5" PointX="3.375" PointY="3.75" />
+        <EntityTypeShape EntityType="DiabetModel.Message" Width="1.5" PointX="5.625" PointY="4.125" />
+        <AssociationConnector Association="DiabetModel.FK__Message__SenderI__4F7CD00D" />
+        <AssociationConnector Association="DiabetModel.FK__Message__UserId__4D94879B" />
+        <EntityTypeShape EntityType="DiabetModel.RequestContactList" Width="1.5" PointX="5.625" PointY="7.5" />
+        <AssociationConnector Association="DiabetModel.FK__RequestCo__Conta__46E78A0C" />
+        <AssociationConnector Association="DiabetModel.FK__RequestCo__Owner__45F365D3" />
+        <AssociationConnector Association="DiabetModel.FK__Login__UserId__3E52440B" />
+        <EntityTypeShape EntityType="DiabetModel.sysdiagrams" Width="1.5" PointX="0.75" PointY="7.75" />
+        <EntityTypeShape EntityType="DiabetModel.ContactList" Width="1.5" PointX="5.625" PointY="1.25" />
+        <AssociationConnector Association="DiabetModel.FK__ContactLi__Conta__6477ECF3" />
+        <AssociationConnector Association="DiabetModel.FK__ContactLi__Owner__656C112C" />
+        <EntityTypeShape EntityType="DiabetModel.AddBloodSugar" Width="1.5" PointX="6.25" PointY="10.375" IsExpanded="true" />
+        <AssociationConnector Association="DiabetModel.FK__AddBloodS__UserI__03F0984C" />
+        <EntityTypeShape EntityType="DiabetModel.DietList" Width="1.5" PointX="1.625" PointY="10.125" />
+        <AssociationConnector Association="DiabetModel.FK__DietList__GivenF__0C85DE4D" />
+        <AssociationConnector Association="DiabetModel.FK__DietList__GiveTo__0D7A0286" />
+        <EntityTypeShape EntityType="DiabetModel.RecoverAccount2" Width="1.5" PointX="8" PointY="3.875" />
+        <AssociationConnector Association="DiabetModel.FK_RecoverAccount2_RecoverAccount2" />
+        <AssociationConnector Association="DiabetModel.FK__RecoverAc__useri__3A4CA8FD" />
+        <EntityTypeShape EntityType="DiabetModel.Popular" Width="1.5" PointX="8.375" PointY="0.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

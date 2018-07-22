@@ -1,0 +1,60 @@
+﻿@using MVCExample.Models
+@model UserDetail
+@{
+    ViewBag.Title = "Profile";
+    Layout = "~/Views/Shared/_mainView.cshtml";
+}
+
+<h2>Profile</h2>
+<form action="UpdatePassword" method="post">
+    @Html.TextBoxFor(m => m.Password, new { @class = "form-control", @placeholder = "Password", @type = "Password" })
+    <input type="submit" name="Command" value="Update Password" />
+</form>
+
+<form action="UpdateMail" method="post">
+    @Html.TextBoxFor(m => m.Mail, new { @class = "form-control", @placeholder = "Mail" ,@type = "email"})
+    <input type="submit" name="Command" value="Update E-Mail" />
+</form>
+
+<form action="UpdatePP" method="post" enctype="multipart/form-data">
+    <div>
+        <label for="file">Change your Profile Picture</label>
+        <input type="file" name="file" id="file" />
+        <input type="submit" name="Command" value="Update" />
+    </div>
+</form>
+
+@section nameofuser
+{
+
+    @Model.Name
+    @Model.Surname
+
+
+}
+@section nameofuser2
+
+{
+    @Model.Name
+    @Model.Surname
+}
+
+@section img1
+{
+    @Model.ProfilePictureURL
+}
+@section img2
+{
+    @Model.ProfilePictureURL
+}
+@section img4
+{
+    @Model.ProfilePictureURL
+}
+@section mainurl
+{
+    @Url.Content("/Experts")
+}
+@section profile1
+{ @Url.Action("Profile1", "Experts")
+}
