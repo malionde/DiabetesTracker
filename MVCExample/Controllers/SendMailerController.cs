@@ -47,7 +47,7 @@ namespace MVCExample.Controllers
                         smtp.Host = "smtp.gmail.com";
                         smtp.Port = 587;
                         smtp.UseDefaultCredentials = false;
-                        smtp.Credentials = new System.Net.NetworkCredential("diabettracker@gmail.com", "gozdefurkan"); // Enter seders User name and password   
+                        smtp.Credentials = new System.Net.NetworkCredential("diabettracker@gmail.com", "password"); // Enter seders User name and password   
                         smtp.EnableSsl = true;
                         smtp.Send(mail);
                         return View("Index", _objModelMail);
